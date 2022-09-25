@@ -1,0 +1,58 @@
+{
+	"compiler": {
+		"version": "0.7.6+commit.7338295f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "hello",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/helllo.sol": "HelloWorld"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/helllo.sol": {
+			"keccak256": "0x5dcca86a66bd34a446c04887869281e7e9c84a3ef0c66b8edcfbc9c6b8bd0e01",
+			"urls": [
+				"bzz-raw://f0975dff89899b32954ff1d212a290238242ee981d05c7b998cd3933fc12e3c6",
+				"dweb:/ipfs/QmTH8x2zgetfKLFSnCetThNKJ16kDdRG7GXE8UHxKdhb5j"
+			]
+		}
+	},
+	"version": 1
+}

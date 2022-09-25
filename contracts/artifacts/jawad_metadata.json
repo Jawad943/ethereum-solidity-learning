@@ -1,0 +1,71 @@
+{
+	"compiler": {
+		"version": "0.7.6+commit.7338295f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "calc",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "message",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/15-09-2022.sol": "jawad"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/15-09-2022.sol": {
+			"keccak256": "0x146491de25e35e3ab61a37446dc74df145d3f91e85735b323eabc21b3b2c472a",
+			"urls": [
+				"bzz-raw://2a9f93214c0115c10300f6c1f6f99169247b3f97abc062b01a40f432278ed2b3",
+				"dweb:/ipfs/QmeYYwNRqPxFDVYKRLftwGvLYWcGk8qwXHKKknJUkqp8UA"
+			]
+		}
+	},
+	"version": 1
+}
