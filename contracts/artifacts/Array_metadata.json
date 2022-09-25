@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.7+commit.e28d00a7"
+		"version": "0.8.17+commit.8df45f5f"
 	},
 	"language": "Solidity",
 	"output": {
@@ -9,25 +9,38 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "_num1",
+						"name": "_push",
 						"type": "uint256"
 					}
 				],
-				"name": "addToArray",
+				"name": "addElement",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_delete",
+						"type": "uint256"
+					}
+				],
+				"name": "deleteElement",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "arrayLength",
+				"name": "lenghtArray",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "count",
+				"name": "length",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -36,19 +49,6 @@
 					}
 				],
 				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "_num2",
-						"type": "uint256"
-					}
-				],
-				"name": "delArrayElement",
-				"outputs": [],
-				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
@@ -84,7 +84,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/24-09-2022.sol": "Array"
+			"contracts/25-09-2022.sol": "Array"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -98,11 +98,11 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/24-09-2022.sol": {
-			"keccak256": "0x179cf9542d5cde4c8540522a98af42372f3d1fb7c7ba535d9d5880afb26ecb39",
+		"contracts/25-09-2022.sol": {
+			"keccak256": "0x6b06e724d7f37455d030f089a10a57b2e218e6740e4501c4a8311c82905009b3",
 			"urls": [
-				"bzz-raw://a90287ac9bf8a54cdfed0bcb1c7319839424a488fdf6f5fc5b4c3aa64f00b185",
-				"dweb:/ipfs/QmZC3JWSe4JU4apgGeE1eQHzw8L78vSzHEAXhPPikk8if6"
+				"bzz-raw://3bbba8d99e3a470df7cebe7c79390b24a278058a2f365ea08badbbe91457eaef",
+				"dweb:/ipfs/QmajcBi5gfNSQNmf82CUjENNrmHvB29cd7ed1Y3Bzsht8o"
 			]
 		}
 	},
